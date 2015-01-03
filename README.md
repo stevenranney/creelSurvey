@@ -8,7 +8,7 @@ Creel surveys allow fisheries scientists and managers the ability to sample angl
 This package has been submitted to `CRAN` for publication as of 2 Jan 2015.  A manuscript is in progress for publication in the Journal of Statistical Software.
 
 Install `BusRouteCreelSurvey` from GitHub with the following code:
-`devtools::install_github("stevenranney/creelSurvey")`
+`r devtools::install_github("stevenranney/creelSurvey")`
 
 
 Additional information:
