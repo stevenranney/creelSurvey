@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Creelsurvey : Deprecated.  See `AnglerCreelSurveySimulation`">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Creelsurvey</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/stevenranney/creelSurvey">View on GitHub</a>
+
+          <h1 id="project_title">Creelsurvey</h1>
+          <h2 id="project_tagline">Deprecated.  See `AnglerCreelSurveySimulation`</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/stevenranney/creelSurvey/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/stevenranney/creelSurvey/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="creelsurvey" class="anchor" href="#creelsurvey" aria-hidden="true"><span class="octicon octicon-link"></span></a>creelSurvey</h1>
+
+<p><em>Functions to allow fisheries managers to simulate a bus route creel survey</em></p>
+
+<p><strong>This repository is no longer current.  It will be kept in place until 28 Feb 2015 because a question on <a href="http://www.stackoverflow.com">StackOverlow.com</a> refers to this repository, functions, and .Rd files.  Please see the repository <a href="http://www.github.com/stevenranney/AnglerCreelSurveySimulation">AnglerCreelSurveySimulation</a> for the most updated version of this package.</strong></p>
+
+<h1></h1>
+
+<p>Creel surveys allow fisheries scientists and managers the ability to sample anglers in a fishery and achieve statisticaly-valid estimates of catch rate, harvest rate, and in some cases, fish populations.  Depending upon the size of the fishery, creel surveys can be challenging to implement correctly.  Further, creel surveys can be costly.  Much research has been spent on identifying methods for creel surveys.  However, relatively little research time has been spent on answering the question <em>what is the best creel-survey type to implement in <strong>my</strong> fishery?</em>  The package(s) and code contained in this repository include functions to allow fisheries managers the ability to simulate a creel survey with <em>a priori</em> data.</p>
+
+<p>This package has been submitted to <code>CRAN</code> for publication on 4 Jan 2015.  A manuscript is in progress for publication in the Journal of Statistical Software.</p>
+
+<p>Install 'AnglerCreelSurveySimulation' with</p>
+
+<div class="highlight highlight-r"><pre>install.packages(<span class="pl-s1"><span class="pl-pds">"</span>AnglerCreelSurveySimulation<span class="pl-pds">"</span></span>)</pre></div>
+
+<p>Additional information:</p>
+
+<ul>
+<li>
+<code>meanTripLength</code> and <code>catchRate</code> are estimated from the <code>gamma</code> distribution</li>
+<li>The Ratio of Means is used to estiate <code>catch</code> and <code>effort</code> (Malvestuto 1996; Jones and Pollock 2012)</li>
+<li>Creel surveys can be estimated as a 'one-off' or bus route-type surveys (e.g., multiple stops along a route)</li>
+<li>Simulations can be run to estimate <code>&gt;= 1</code> surveys</li>
+<li>Resulting values for estimated catch and estimated effort can be plotted as a function of true catch and true effort to evaluate how accurately the survey reflects reality.</li>
+</ul>
+
+<h5>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h5>
+
+<p>Jones, C. M., and K. H. Pollock. 2012. Recreational survey 
+ methods: estimation of effort, harvest, and released catch. Pages 883-919 
+ in A. V. Zale, D. L. Parrish, and T. M. Sutton, editors. Fisheries 
+ Techniques, 3rd edition. American Fisheries Society, Bethesda, Maryland.</p>
+
+<p>Malvestuto, S. P. 1996. Sampling the recreational creel. Pages 
+ 591-623 in B. R. Murphy and D. W. Willis, editors. Fisheries techniques, 
+ 2nd edition. American Fisheries Society, Bethesda, Maryland.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Creelsurvey maintained by <a href="https://github.com/stevenranney">stevenranney</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
