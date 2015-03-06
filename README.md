@@ -3,7 +3,7 @@ creelSurvey
 
 *Functions to allow fisheries managers to simulate a bus route creel survey*
 
-**This repository is no longer current.  It will be kept in place until 28 Feb 2015 because a question on [StackOverlow.com](http://www.stackoverflow.com) refers to this repository, functions, and .Rd files.  Please see the repository [AnglerCreelSurveySimulation](http://www.github.com/stevenranney/AnglerCreelSurveySimulation) for the most updated version of this package.**
+**This repository is no longer current.  It will be kept in place because a question on [StackOverlow.com](http://www.stackoverflow.com) refers to this repository, functions, and .Rd files, but this repository will not be updated.  Please see the repository [AnglerCreelSurveySimulation](http://www.github.com/stevenranney/AnglerCreelSurveySimulation) for the most updated version of this package.**
 
 =====
 Creel surveys allow fisheries scientists and managers the ability to sample anglers in a fishery and achieve statisticaly-valid estimates of catch rate, harvest rate, and in some cases, fish populations.  Depending upon the size of the fishery, creel surveys can be challenging to implement correctly.  Further, creel surveys can be costly.  Much research has been spent on identifying methods for creel surveys.  However, relatively little research time has been spent on answering the question _what is the best creel-survey type to implement in **my** fishery?_  The package(s) and code contained in this repository include functions to allow fisheries managers the ability to simulate a creel survey with *a priori* data.
