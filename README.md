@@ -4,6 +4,7 @@ creelSurvey
 *Functions to allow fisheries managers to simulate a bus route creel survey*
 
 **This repository is no longer current.  It will be kept in place because a question on [StackOverlow.com](https://stackoverflow.com/questions/27756679/cran-finds-an-warning-that-r-cmd-check-as-cran-does-not) refers to this repository, functions, and .Rd files, but this repository will not be updated.  Please see the repository [AnglerCreelSurveySimulation](http://www.github.com/stevenranney/AnglerCreelSurveySimulation) for the most updated version of this package.**
+
 ** 2019-01-14: This repository is now read-only.**
 
 =====
